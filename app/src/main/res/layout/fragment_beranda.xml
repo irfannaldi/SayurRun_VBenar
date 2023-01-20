@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.BerandaFragment"
+    android:paddingBottom="24dp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="24dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            <ImageView
+                android:layout_width="94.81dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/logo" />
+            <SearchView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="16.19dp"
+                android:gravity="center_horizontal"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="8dp"
+                android:searchIcon="@drawable/search"
+                android:background="@drawable/hijau" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lebaran Diskonan"
+                android:textSize="18dp"
+                android:fontFamily="@font/poppins_bold"
+                android:textColor="#564734"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="4dp"
+                android:text="Dapatkan diskon hingga 30% di bulan penuh rahmat."
+                android:textSize="12dp"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="#564734"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/promo1"
+                android:layout_marginTop="16dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Selasa Selada"
+                android:textSize="18dp"
+                android:fontFamily="@font/poppins_bold"
+                android:textColor="#564734"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="4dp"
+                android:text="Setiap SELASA!!! Bonus, 1 ikat selada untuk pembelian minimal Rp 50.000."
+                android:textSize="12dp"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="#564734"
+                android:justificationMode="inter_word"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/promo2"
+                android:layout_marginTop="16dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

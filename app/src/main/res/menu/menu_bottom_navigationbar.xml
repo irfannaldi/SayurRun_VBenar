@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mn_beranda"
+        android:icon="@drawable/beranda"
+        android:title="Beranda"/>
+
+    <item
+        android:id="@+id/mn_sayuran"
+        android:icon="@drawable/sayuran"
+        android:title="Sayuran"/>
+
+    <item
+        android:id="@+id/mn_pesanan"
+        android:icon="@drawable/info"
+        android:title="About"/>
+
+    <item
+        android:id="@+id/mn_profil"
+        android:icon="@drawable/profil"
+        android:title="Profil"/>
+</menu>

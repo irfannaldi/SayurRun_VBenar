@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "902724413327",
+    "project_id": "sayurrun-e1a25",
+    "storage_bucket": "sayurrun-e1a25.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902724413327:android:3cc46bc0fc03f11b6b8dfa",
+        "android_client_info": {
+          "package_name": "com.example.sayurrun_vbenar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902724413327-e58362og71s5th7lp5601c4n2fq1vavd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYTjh4MZ9fglDd92NjitvtKPfuh00Idr8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902724413327-e58362og71s5th7lp5601c4n2fq1vavd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

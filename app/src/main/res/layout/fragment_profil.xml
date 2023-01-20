@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="24dp"
+    tools:context=".fragments.ProfilFragment"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="24dp">
+        <ImageView
+            android:layout_width="19.47dp"
+            android:layout_height="11.15dp"
+            android:src="@drawable/backp"
+            android:layout_marginTop="14dp"/>
+        <TextView
+            android:id="@+id/pro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profil"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textColor="#0C2E0B"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginTop="3dp" />
+
+        <ImageView
+            android:id="@+id/fp"
+            android:layout_width="178dp"
+            android:layout_height="165dp"
+            android:layout_marginTop="24dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/pro"
+            android:src="@drawable/foto"/>
+
+        <ImageButton
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_below="@id/pro"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edit"/>
+
+        <TextView
+            android:id="@+id/nl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fp"
+            android:layout_marginTop="30dp"
+            android:text="Nama Lengkap"
+            android:textColor="#564734"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="14dp"/>
+        <EditText
+            android:id="@+id/et1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/nl"
+            android:background="@drawable/profilbg"
+            android:hint="Irfan febrinaldi"
+            android:textColorHint="#62894F"
+            android:padding="5dp"
+            android:textSize="12dp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:id="@+id/em"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et1"
+            android:layout_marginTop="30dp"
+            android:text="Email"
+            android:textColor="#564734"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="14dp"/>
+        <EditText
+            android:id="@+id/et2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/em"
+            android:background="@drawable/profilbg"
+            android:hint="irfan@gmail.com"
+            android:textColorHint="#62894F"
+            android:padding="5dp"
+            android:textSize="12dp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:id="@+id/no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et2"
+            android:layout_marginTop="30dp"
+            android:text="Nomor HP"
+            android:textColor="#564734"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="14dp"/>
+        <EditText
+            android:id="@+id/et3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/no"
+            android:background="@drawable/profilbg"
+            android:hint="082288379082"
+            android:textColorHint="#62894F"
+            android:padding="5dp"
+            android:textSize="12dp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:id="@+id/alm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et3"
+            android:layout_marginTop="30dp"
+            android:text="Alamat"
+            android:textColor="#564734"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="14dp"/>
+        <EditText
+            android:id="@+id/et4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/alm"
+            android:background="@drawable/profilbg"
+            android:hint="Jln. Umban Sari"
+            android:textColorHint="#62894F"
+            android:padding="5dp"
+            android:textSize="12dp"
+            android:textStyle="normal"/>
+    </RelativeLayout>
+</ScrollView>
